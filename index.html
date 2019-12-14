@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Blog</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="main.js"></script>
+</head>
+
+<body>
+    <h1>Hello blog</h1>
+    <form>
+        <fieldset class="post">
+            <legend>Create post</legend>
+        <input class="post__text" id="title" placeholder="title">
+        <input class="post__text" id="seo-url" placeholder="seo url">
+        <input class="post__text" id="short-description" placeholder="short description">
+        <textarea id="full-description" placeholder="full description"></textarea>
+
+
+
+        <label>
+            <input class="post__text" id="status" type="checkbox">
+        </label>
+        <button id="send-post" type="button">Create</button>
+    </fieldset>
+    </form>
+
+<table id="posts-list">
+
+</table>
+
+</body>
+
+</html>
